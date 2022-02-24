@@ -4,6 +4,14 @@
   padding: 20px;
 }
 
+.item1 {
+  text-align: left;
+}
+
+.item2 {
+  text-align: left;
+}
+
 .profile-picture img {
   width: 300px;
   height: auto;
@@ -13,7 +21,16 @@
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-  .about-grid {
+  .item1 {
+    grid-area: myArea;
+  }
+
+  item2 {
+    justify-self: center;
+  }
+
+  .grid-container {
     display: grid;
+    grid-template-areas: 'myArea myArea';
   }
 }
