@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
-}
+/* 
+Hex code and Color Name
+#2B6777 color name is Ming
+#52AB98 color name is Polished Pine
+#C8D8E4 color name is Columbia Blue
+*/
+@import './css/NavBar.css';
 
-.App-logo {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
