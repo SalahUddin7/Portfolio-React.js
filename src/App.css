@@ -5,14 +5,14 @@ Hex code and Color Name
 #C8D8E4 color name is Columbia Blue
 */
 @import './css/NavBar.css';
-
+@import './css/HeroSection.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
-/* .App {
+.App {
   text-align: center;
-} */
+}
 
-/* .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-} */
+}
