@@ -6,6 +6,7 @@ Hex code and Color Name
 */
 @import './css/NavBar.css';
 @import './css/HeroSection.css';
+@import './css/AboutSection.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 .App {
