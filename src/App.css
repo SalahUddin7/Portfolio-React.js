@@ -1,15 +1,10 @@
-/* 
-Hex code and Color Name
-#2B6777 color name is Ming
-#52AB98 color name is Polished Pine
-#C8D8E4 color name is Columbia Blue
-*/
 @import './css/NavBar.css';
 @import './css/HeroSection.css';
 @import './css/ProjectSection.css';
 @import './css/AboutSection.css';
 @import './css/ContactSection.css';
 @import './css/Footer.css';
+@import './css/variables.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 .App {
@@ -17,6 +12,6 @@ Hex code and Color Name
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }

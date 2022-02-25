@@ -13,6 +13,9 @@ export default function NavBar() {
             <a href="#projects">Projects</a>
           </li>
           <li>
+            <a href="#hero">S</a>
+          </li>
+          <li>
             <a href="#hero" className="main-logo">
               <img
                 src={Logo}
