@@ -1,0 +1,10 @@
+.footer-section {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0 auto;
+}
+
+.footer icon > div {
+  display: flex;
+  flex-direction: row;
+}
