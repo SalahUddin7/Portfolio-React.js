@@ -8,14 +8,11 @@ export default function ContactSection() {
     <div className="container-section">
       <div className="contact-container">
         <div className="item1">
-          <h1>Contact Me-10</h1>
+          <h1>Contact Me</h1>
         </div>
         <div className="item2">
-          {/* <p> */}
           Here is my contact information.I look forward to collaboratation.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro maxime
-          nesciunt soluta fugit illo necessitatibus.
-          {/* </p> */}
+          Please fell free to call meor email me.
         </div>
         <div className="item3">
           <div>
