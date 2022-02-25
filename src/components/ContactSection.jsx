@@ -17,7 +17,6 @@ export default function ContactSection() {
             </p>
           </div>
           <div class="item3">
-            {' '}
             <div className="">
               <div>
                 <FaRegEnvelope />
