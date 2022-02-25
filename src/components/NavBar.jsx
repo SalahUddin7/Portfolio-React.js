@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/main-logo-salah.png';
+import Logo from '../assets/logo001.jpg';
 
 export default function NavBar() {
   return (
@@ -12,9 +12,7 @@ export default function NavBar() {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          <li>
-            <a href="#hero">S</a>
-          </li>
+
           <li>
             <a href="#hero" className="main-logo">
               <img
