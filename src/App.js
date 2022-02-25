@@ -13,8 +13,9 @@ function App() {
       <header className="App-header">
         <NavBar />
         <HeroSection />
-        <ProjectSection />
+
         <AboutSection />
+        <ProjectSection />
         <ContactSection />
         <Footer />
       </header>
