@@ -1,27 +1,74 @@
 .container-section {
   background-color: rgb(68, 219, 144);
-
-  padding-top: 20px;
-  padding-bottom: 20px;
-  align-items: center;
+  padding: 20px 0px;
+  /* align-items: center; */
 }
 
 .contact-container {
-  max-width: 800px;
   text-align: left;
   list-style: none;
   text-decoration: none;
-  margin-left: 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 800px;
+  /* height: auto; */
+  padding: 20px;
+  /* This border is just for testing purposes  */
+  border: 1px solid rgb(7, 7, 7);
 }
 
-.contact-container a {
+.item3 a {
   text-decoration: none;
   cursor: pointer;
   color: black;
   margin-left: 10px;
-  margin-top: 50px;
+
+  /* margin-top: 50px; */
 }
 
 .contact-container a:hover {
   color: rgb(4, 39, 236);
+}
+
+.item1 {
+  grid-area: myArea;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-areas: 'myArea ';
+  gap: 20px;
+
+  /* padding: 10px; */
+}
+
+.contact-container > div {
+  /* text-align: center; */
+  /* padding: 20px 0; */
+
+  text-align: left;
+}
+
+.item2 {
+  font-size: 24px;
+}
+
+.item3 {
+  font-size: 24px;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea ';
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .contact-container > div {
+    text-align: center;
+    padding: 20px 0;
+    text-align: left;
+  }
 }
