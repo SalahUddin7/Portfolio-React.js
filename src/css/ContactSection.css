@@ -32,18 +32,45 @@
   color: rgb(4, 39, 236);
 }
 
+.item1 {
+  grid-area: myArea;
+}
+
+.contact-grid-container {
+  display: grid;
+  grid-template-areas: 'myArea ';
+  gap: 10px;
+
+  padding: 10px;
+}
+
+.contact-grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+
+  text-align: left;
+}
+
+.item2 {
+  font-size: 24px;
+}
+
+.item3 {
+  font-size: 24px;
+}
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-  .item11 {
-    grid-area: myArea;
-  }
-
-  .contact-container {
+  .contact-grid-container {
     display: grid;
     grid-template-areas: 'myArea myArea ';
     gap: 10px;
-    background-color: #2196f3;
     padding: 10px;
+  }
+
+  .contact-grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    text-align: left;
   }
 }
