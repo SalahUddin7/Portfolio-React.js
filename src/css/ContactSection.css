@@ -1,29 +1,29 @@
 .container-section {
   background-color: rgb(68, 219, 144);
   padding: 20px 0px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .contact-container {
   text-align: left;
   list-style: none;
   text-decoration: none;
-
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 800px;
-  height: auto;
+  /* height: auto; */
   padding: 20px;
   /* This border is just for testing purposes  */
   border: 1px solid rgb(7, 7, 7);
 }
 
-.contact-container a {
+.item3 a {
   text-decoration: none;
   cursor: pointer;
   color: black;
   margin-left: 10px;
-  margin-top: 50px;
+
+  /* margin-top: 50px; */
 }
 
 .contact-container a:hover {
@@ -34,17 +34,17 @@
   grid-area: myArea;
 }
 
-.contact-grid-container {
+.contact-container {
   display: grid;
   grid-template-areas: 'myArea ';
-  gap: 10px;
+  gap: 20px;
 
-  padding: 10px;
+  /* padding: 10px; */
 }
 
-.contact-grid-container > div {
-  text-align: center;
-  padding: 20px 0;
+.contact-container > div {
+  /* text-align: center; */
+  /* padding: 20px 0; */
 
   text-align: left;
 }
@@ -59,14 +59,14 @@
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-  .contact-grid-container {
+  .contact-container {
     display: grid;
     grid-template-areas: 'myArea myArea ';
     gap: 10px;
     padding: 10px;
   }
 
-  .contact-grid-container > div {
+  .contact-container > div {
     text-align: center;
     padding: 20px 0;
     text-align: left;
