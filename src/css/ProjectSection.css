@@ -1,10 +1,10 @@
-.container-section {
-  background-color: rgb(68, 219, 144);
+.project-section {
+  background-color: rgb(219, 68, 211);
   padding: 20px 0px;
   /* align-items: center; */
 }
 
-.contact-container {
+.project-container {
   text-align: left;
   list-style: none;
   text-decoration: none;
@@ -17,24 +17,11 @@
   border: 1px solid rgb(7, 7, 7);
 }
 
-.item3 a {
-  text-decoration: none;
-  cursor: pointer;
-  color: black;
-  margin-left: 10px;
-
-  /* margin-top: 50px; */
-}
-
-.contact-container a:hover {
-  color: rgb(4, 39, 236);
-}
-
 .item1 {
   grid-area: myArea;
 }
 
-.contact-container {
+.project-container {
   display: grid;
   grid-template-areas: 'myArea ';
   gap: 20px;
