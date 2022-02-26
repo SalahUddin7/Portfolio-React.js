@@ -1,4 +1,5 @@
 import React from 'react';
+import Project1 from '../assets/beach.jfif';
 
 export default function ProjectSection() {
   return (
@@ -14,9 +15,12 @@ export default function ProjectSection() {
         </div>
         <div className="item-three">
           <div> This is Item 1 </div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
+          <div>
+            <img src={Project1} alt="Example of my Project" />
+            <h2>Restaurent Meal</h2>
+            <p>Lorem ipsum, dolor sit dipis.</p>
+          </div>
+
           <div>5</div>
           <div>6</div>
           <div>7</div>
