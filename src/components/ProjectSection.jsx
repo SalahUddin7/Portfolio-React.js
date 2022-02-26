@@ -1,5 +1,5 @@
 import React from 'react';
-import Project1 from '../assets/beach.jfif';
+// import Project1 from '../assets/beach.jfif';
 
 export default function ProjectSection() {
   return (
@@ -16,7 +16,7 @@ export default function ProjectSection() {
         <div className="item-three">
           <div> This is Item 1 </div>
           <div>
-            <img src={Project1} alt="Example of my Project" />
+            {/* <img src={Project1} alt="Example of my Project" /> */}
             <h2>Restaurent Meal</h2>
             <p>Lorem ipsum, dolor sit dipis.</p>
           </div>
