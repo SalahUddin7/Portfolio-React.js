@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <NavBar />
+        <NavBar />
 
         <HeroSection />
 
         <AboutSection />
         <ProjectSection />
-        <ContactSection /> */}
+        <ContactSection />
         <ReactPortal />
         <Footer />
       </header>
