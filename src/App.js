@@ -8,7 +8,7 @@ import HeroSection from './components/HeroSection';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ProjectSection from './components/ProjectSection';
-import ReactPortal from './components/ReactPortal';
+
 import TechSectionArea from './components/TechSectionArea';
 import ModalContainer from './components/ModalContainer';
 
@@ -26,7 +26,7 @@ function App() {
         <ModalContainer modal={modal} setModal={setModal} />
         <TechSectionArea />
         <ContactSection />
-        {/* <ReactPortal /> */}
+
         <Footer />
       </header>
     </div>
