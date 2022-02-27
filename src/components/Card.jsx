@@ -1,14 +1,16 @@
 import React from 'react';
 
-export default function Card(project, onClick) {
+export default function Card({ project, onClick }) {
+  const { image, title, completed } = project;
+
   return (
     <div>
       <li>
-        <div className={`active ${project.completed ? 'inactive' : ''}`}>
+        <div className={`active ${completed ? 'inactive' : ''}`}>
           COMING SOONn
         </div>
-        <img onClick={onClick} src={project.image} alt="" />
-        <h3>{project.title}</h3>
+        <img onClick={onClick} src={image} alt="" />
+        <h3>{title}</h3>
       </li>
     </div>
   );

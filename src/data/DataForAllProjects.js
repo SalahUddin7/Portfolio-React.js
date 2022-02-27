@@ -22,4 +22,15 @@ export const data = [
     github: 'https://github.com/SalahUddin7',
     completed: false,
   },
+
+  {
+    id: 3,
+    title: 'Shopping list',
+    image: VeganRestaurentScreenshot,
+    description: 'This is a Vegan Restaurent web app.',
+    pills: ['React', 'FireBase'],
+    appUrl: 'https://bbc.com/',
+    github: 'https://github.com/SalahUddin7',
+    completed: false,
+  },
 ];
