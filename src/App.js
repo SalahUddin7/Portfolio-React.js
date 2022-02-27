@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 // import logo from './logo.svg';
 import './App.css';
 import AboutSection from './components/AboutSection';
@@ -8,8 +10,10 @@ import Footer from './components/Footer';
 import ProjectSection from './components/ProjectSection';
 import ReactPortal from './components/ReactPortal';
 import TechSectionArea from './components/TechSectionArea';
+import ModalContainer from './components/ModalContainer';
 
 function App() {
+  const [modal, setModal] = useState(null);
   return (
     <div className="App">
       <header className="App-header">
@@ -18,10 +22,11 @@ function App() {
         <HeroSection />
 
         <AboutSection />
-        <ProjectSection />
+        <ProjectSection setModal={setModal} />
+        <ModalContainer modal={modal} setModal={setModal} />
         <TechSectionArea />
         <ContactSection />
-        <ReactPortal />
+        {/* <ReactPortal /> */}
         <Footer />
       </header>
     </div>

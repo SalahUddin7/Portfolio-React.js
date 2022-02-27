@@ -43,6 +43,17 @@
   display: flex;
 }
 
+.inactive {
+  display: none;
+}
+
+.item-three ul {
+}
+
+.item-three ul img {
+  width: 25%;
+}
+
 .item-three > div {
   box-sizing: border-box;
   border-style: dashed;
