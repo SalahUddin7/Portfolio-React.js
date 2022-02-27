@@ -1,0 +1,37 @@
+.technology-container {
+  width: 100%;
+  background-color: rgb(85, 231, 104);
+
+  text-align: left;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.technology-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  justify-items: center;
+  padding-inline-start: 0px;
+}
+
+.item-wrapper {
+  width: 80px;
+  margin: 16px 8px;
+}
+.item-wrapper img {
+  max-width: 70px;
+  height: 60px;
+}
+.item-wrapper li {
+  list-style: none;
+  color: #c4c4c4;
+}
+
+.item-wrapper li img {
+  margin-bottom: 8px;
+}
+
+.item-wrapper li label {
+  font-size: 12px;
+}
