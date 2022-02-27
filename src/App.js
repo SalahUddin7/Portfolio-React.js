@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ProjectSection from './components/ProjectSection';
 import ReactPortal from './components/ReactPortal';
+import TechSectionArea from './components/TechSectionArea';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <AboutSection />
         <ProjectSection />
+        <TechSectionArea />
         <ContactSection />
         <ReactPortal />
         <Footer />
