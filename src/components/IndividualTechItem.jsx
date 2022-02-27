@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function TechItem({ item }) {
+export default function IndividualTechItem({ item }) {
   return (
-    <div>
+    <div className="item-wrapper">
       <li>
         <img src={item.logo} alt={item.name} />
         <label>{item.name}</label>
