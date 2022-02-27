@@ -8,6 +8,7 @@
 @import './css/variables.css';
 @import './css/ReactPortal.css';
 @import './css/TechSectionArea.css';
+@import './css/ModalContainer.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 .App {

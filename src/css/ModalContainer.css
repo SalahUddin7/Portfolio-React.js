@@ -1,0 +1,19 @@
+.modal-card-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  width: 90%;
+  max-width: 420px;
+  height: auto;
+  max-height: 550px;
+  overflow: auto;
+}
