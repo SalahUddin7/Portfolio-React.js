@@ -1,6 +1,5 @@
 .technology-container {
   width: 100%;
-  background-color: rgb(85, 231, 104);
 
   text-align: left;
   margin: 0 auto;
@@ -15,23 +14,27 @@
   padding-inline-start: 0px;
 }
 
-.item-wrapper {
-  width: 80px;
+.tech-item-box {
+  background-color: black;
+  width: 75px;
   margin: 16px 8px;
 }
-.item-wrapper img {
+.tech-item-box img {
   max-width: 70px;
   height: 60px;
 }
-.item-wrapper li {
+.tech-item-box li {
   list-style: none;
   color: #c4c4c4;
 }
 
-.item-wrapper li img {
+.tech-item-box li img {
   margin-bottom: 8px;
+  margin-left: 5px;
 }
 
-.item-wrapper li label {
+.tech-item-box li label {
   font-size: 12px;
+  text-align: center;
+  margin-left: 6px;
 }

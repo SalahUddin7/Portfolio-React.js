@@ -24,4 +24,35 @@ export const DataForAllTech = [
     name: 'SASS',
     logo: SASS,
   },
+
+  {
+    id: 5,
+    name: 'React',
+    logo: reactlogo,
+  },
+  {
+    id: 6,
+    name: 'JavaScript',
+    logo: Javascript,
+  },
+  {
+    id: 7,
+    name: 'NPM',
+    logo: NPM,
+  },
+  {
+    id: 8,
+    name: 'SASS',
+    logo: SASS,
+  },
+  {
+    id: 9,
+    name: 'NPM',
+    logo: NPM,
+  },
+  {
+    id: 10,
+    name: 'SASS',
+    logo: SASS,
+  },
 ];
