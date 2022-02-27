@@ -5,13 +5,13 @@ export default function Card({ project, onClick }) {
   console.log(onClick);
 
   return (
-    <div>
+    <div onClick={onClick}>
       <li>
         <div className={`active ${completed ? 'inactive' : ''}`}>
           COMING SOON
         </div>
-        <img onClick={onClick} src={image} alt="" />
-        <h3>{title}</h3>
+        <img src={image} alt="" />
+        <h6>Name: {title}</h6>
       </li>
     </div>
   );

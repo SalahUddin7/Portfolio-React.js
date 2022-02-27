@@ -2,7 +2,6 @@ import React from 'react';
 import { data } from '../data/DataForAllProjects';
 import Card from './Card';
 import ProjectModal from './ProjectModal';
-// import Project1 from '../assets/beach.jfif';
 
 export default function ProjectSection({ setModal }) {
   const cards = data.map((project) => (
@@ -28,7 +27,7 @@ export default function ProjectSection({ setModal }) {
           nesciunt soluta fugit illo necessitatibus.
         </div>
         <div className="item-three">
-          <ul>{cards} ABC</ul>
+          <ul>{cards}</ul>
         </div>
       </div>
     </div>

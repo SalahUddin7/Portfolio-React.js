@@ -1,7 +1,6 @@
 .project-section {
   background-color: #f8f2f2;
   padding: 20px 0px;
-  /* align-items: center; */
 }
 
 .project-container {
@@ -24,10 +23,6 @@
   padding: 10px;
 }
 
-/* .project-container > div {
-  text-align: left;
-} */
-
 .item-two {
   font-size: 24px;
   grid-column: 1 / 2;
@@ -39,8 +34,10 @@
   font-size: 24px;
   grid-column: 2 / 7;
   border-style: dashed;
-  border-color: blue;
+  border-color: rgb(0, 0, 240);
   display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
 }
 
 .inactive {
@@ -48,17 +45,29 @@
 }
 
 .item-three ul {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  list-style: none;
 }
 
 .item-three ul img {
-  width: 25%;
+  width: 100%;
+  height: auto;
+
+  display: flex;
 }
 
-.item-three > div {
+.item-three ul li {
+  background-color: aquamarine;
+}
+
+/* .item-three > div {
   box-sizing: border-box;
   border-style: dashed;
   border-color: blueviolet;
-}
+} */
 
 /* ..............MEDIA QUERIES................. */
 /* Medium devices (landscape tablets, 768px and up) */
