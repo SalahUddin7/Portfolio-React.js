@@ -1,28 +1,33 @@
 import React from 'react';
-import { ImLinkedin } from 'react-icons/im';
-import { VscGithubInverted } from 'react-icons/vsc';
+
+import LinkedIn from '../assets/footer-icons/linkedin-svg.svg';
+import GitHub from '../assets/footer-icons/github-svg.svg';
 
 export default function Footer() {
+  const yearNow = new Date().getFullYear();
   return (
-    <div className="footer-section">
-      <div class="footer-container">
-        <div class="footer-container-div">
-          <p>Salah Uddin </p>
-        </div>
-        <div class="footer-container-div">
-          <div class="footer-icon">
-            <div>
-              <VscGithubInverted />
-              <a href="https://github.com/SalahUddin7"></a>
-            </div>
-
-            <div>
-              <ImLinkedin />
-              <a href="https://www.linkedin.com/in/salahsweden/"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <footer className="footer">
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/salahsweden/"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/SalahUddin7"
+          >
+            <img src={GitHub} alt="" />
+          </a>
+        </li>
+      </ul>
+      <p> Designed and Created by Salah Uddin | © {yearNow}</p>
+    </footer>
   );
 }
