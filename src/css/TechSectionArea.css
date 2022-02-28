@@ -1,9 +1,13 @@
 .technology-container {
   width: 100%;
-
+  background-color: var(--color-Columbia-Blue);
   text-align: left;
   margin: 0 auto;
+
   max-width: 800px;
+}
+.technology-container p {
+  font-size: var(--font-size-heading);
 }
 
 .technology-container ul {
@@ -37,4 +41,10 @@
   font-size: 12px;
   text-align: center;
   margin-left: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .technology-container {
+    margin-top: 100px;
+  }
 }
