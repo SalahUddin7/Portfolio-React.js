@@ -38,6 +38,8 @@
   display: flex;
   flex-wrap: wrap;
   background-color: DodgerBlue;
+  gap: 10px;
+  gap: 10px 20px;
 }
 
 .inactive {
