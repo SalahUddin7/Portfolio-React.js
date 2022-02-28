@@ -22,7 +22,7 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a href="#tech">Tech</a>
+            <a href="#technology">Tech</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

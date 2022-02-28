@@ -3,7 +3,7 @@ import Hero from '../assets/hero-section-image-by-nick-fewings-nbwmNehHvis-unspl
 
 export default function HeroSection() {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="hero">
       <img
         src={Hero}
         alt=" an immage of computer captured by nick-fewings used in hero-section"

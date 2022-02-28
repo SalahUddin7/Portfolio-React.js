@@ -16,7 +16,7 @@ export default function ProjectSection({ setModal }) {
     setModal(<ProjectModal project={project} />);
   }
   return (
-    <div className="project-section">
+    <div className="project-section" id="projects">
       <div className="project-container">
         <div className="item-one">
           <h1>Projects</h1>

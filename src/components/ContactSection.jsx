@@ -5,7 +5,7 @@ import { FaRegEnvelope } from 'react-icons/fa';
 
 export default function ContactSection() {
   return (
-    <div className="container-section">
+    <div className="container-section" id="contact">
       <div className="contact-container">
         <div className="item1">
           <h1>Contact Me-1</h1>

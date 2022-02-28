@@ -3,7 +3,7 @@ import Profile from '../assets/salahuddin-profile-image-png.png';
 
 export default function AboutSection() {
   return (
-    <div className="section">
+    <div className="section" id="about">
       <div className="grid-container">
         <div className="item1">
           <h1>About Me</h1>
