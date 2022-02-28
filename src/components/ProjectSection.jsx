@@ -22,9 +22,8 @@ export default function ProjectSection({ setModal }) {
           <h1>Projects</h1>
         </div>
         <div className="item-two">
-          Here is my contact information.I look forward to collaboratation.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro maxime
-          nesciunt soluta fugit illo necessitatibus.
+          Here you can see some of my works. I did everything myself from Figma
+          to code. Please click on respective project to see more details.
         </div>
         <div className="item-three">
           <ul>{cards}</ul>
