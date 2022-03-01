@@ -5,7 +5,7 @@ export default function Card({ project, onClick }) {
   console.log(onClick);
 
   return (
-    <div onClick={onClick}>
+    <div onClick={onClick} className="project-card">
       <li>
         <div className={`active ${completed ? 'inactive' : ''}`}>
           <p className="coming-soon">COMING SOON</p>
@@ -16,7 +16,7 @@ export default function Card({ project, onClick }) {
           {/*  */}
         </div>
         <img src={image} alt="" />
-        <h6>Name: {title}</h6>
+        <h6> {title}</h6>
       </li>
     </div>
   );

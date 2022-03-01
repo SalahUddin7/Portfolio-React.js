@@ -26,7 +26,7 @@ export const data = [
     pills: ['React', 'FireBase'],
     appUrl: '',
     github: 'https://github.com/SalahUddin7',
-    completed: true,
+    completed: false,
   },
 
   {

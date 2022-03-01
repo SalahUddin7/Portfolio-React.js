@@ -1,0 +1,25 @@
+.coming-soon {
+  position: absolute;
+  z-index: 1000;
+  opacity: 0.9;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 8px;
+  color: var(--color-Ming);
+  background-color: var(--color-Columbia-Blue);
+  border-radius: 8px;
+}
+
+.project-card {
+  margin: 10px;
+  text-align: center;
+}
+
+.project-card img {
+  position: relative;
+  max-height: 100px;
+}
+
+.project-card h6 {
+  margin: 10px;
+}
