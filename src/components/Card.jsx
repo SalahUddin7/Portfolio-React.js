@@ -8,7 +8,12 @@ export default function Card({ project, onClick }) {
     <div onClick={onClick}>
       <li>
         <div className={`active ${completed ? 'inactive' : ''}`}>
-          COMING SOON
+          <p className="coming-soon">COMING SOON</p>
+
+          {/* Position Abosulte
+          Z index- 1000 */}
+          {/* Reduce Opacity 0.3 */}
+          {/*  */}
         </div>
         <img src={image} alt="" />
         <h6>Name: {title}</h6>

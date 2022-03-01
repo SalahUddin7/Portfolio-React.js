@@ -2,14 +2,14 @@ export default function ProjectModal({ project }) {
   const { image, title, description, pills, github, appUrl } = project;
   const pill = pills.map((pill, index) => <li key={index}>{pill}</li>);
   return (
-    <div>
-      <div>
+    <div className="modal-view">
+      <div className="modal-view-left">
         <img src={image} alt="" />
       </div>
-      <div>
+      <div className="modal-view-right">
         <h2>{title}</h2>
         <p>{description}</p>
-        <ul>{pill}</ul>
+        <ul className="modal-pills">{pill}</ul>
         <div>
           <a href={appUrl} target="_blank" rel="noreferrer">
             <button className="website-btn">Visit Website</button>

@@ -1,3 +1,9 @@
+.modal-background {
+  position: fixed;
+  object-fit: cover;
+  width: 80%;
+}
+
 .modal-card-view {
   display: flex;
   justify-content: center;
@@ -13,7 +19,7 @@
   z-index: 100;
   width: 90%;
   max-width: 420px;
-  height: auto;
+  height: 300px;
   max-height: 550px;
   overflow: auto;
 }

@@ -46,16 +46,26 @@
   display: none;
 }
 
+.project-section-flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .item-three ul {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* max-width: 50px;
+  max-height: 50px; */
 }
 
 .item-three ul img {
-  width: 100%;
+  width: 180px;
   height: auto;
 
   display: flex;
@@ -63,6 +73,8 @@
 
 .item-three ul li {
   background-color: aquamarine;
+  width: 185px;
+  height: 200px;
 }
 
 /* ..............MEDIA QUERIES................. */

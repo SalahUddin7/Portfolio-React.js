@@ -28,7 +28,7 @@ export default function ContactSection() {
           <div>
             <FaMapMarker />
             <a href="https://goo.gl/maps/rHGJmtoi5sttNc5p8">
-              Stockholm, Sweden
+              Stockholm, Sweden.
             </a>
           </div>
         </div>
