@@ -1,25 +1,42 @@
-.modal-background {
+.overlay-style {
   position: fixed;
-  object-fit: cover;
-  width: 80%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(230, 105, 105);
+  z-index: 100;
 }
 
-.modal-card-view {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.modal-style {
   position: fixed;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
   border: 2px solid red;
   border-radius: 5px;
-  padding: 10px;
+  /* padding: 10px; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(255, 255, 255);
   z-index: 100;
-  width: 90%;
+  /* width: 90%;
   max-width: 420px;
   height: 300px;
   max-height: 550px;
-  overflow: auto;
+  overflow: auto;  */
+}
+
+.btn-cancel {
+  width: 40px;
+  height: 30px;
+  background-color: rgb(181, 211, 172);
+  color: rgb(235, 29, 29);
+  border: none;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  border-radius: 8px;
 }

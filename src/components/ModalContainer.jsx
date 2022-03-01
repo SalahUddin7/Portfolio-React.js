@@ -7,10 +7,14 @@ export default function ModalContainer({ modal, setModal }) {
 
   return ReactDom.createPortal(
     <>
-      <div onClick={() => setModal(null)} className="modal-background"></div>
-      <div className="modal-card-view">
-        <FaWindowClose onClick={() => setModal(null)} className="modal-icon" />
-        {modal}
+      <div onClick={() => setModal(null)} className="overlay-style">
+        <div className="modal-style">
+          <FaWindowClose
+            onClick={() => setModal(null)}
+            className="btn-cancel"
+          />
+          {modal}
+        </div>
       </div>
     </>,
     document.getElementById('modal')
