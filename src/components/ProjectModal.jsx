@@ -9,7 +9,7 @@ export default function ProjectModal({ project }) {
       <div className="modal-view-right">
         <h2>{title}</h2>
         <p>{description}</p>
-        <ul className="modal-pills">{pill}</ul>
+        <ul>{pill}</ul>
         <div>
           <a href={appUrl} target="_blank" rel="noreferrer">
             <button className="website-btn">Visit Website</button>

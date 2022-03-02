@@ -5,8 +5,8 @@
   font-size: 24px;
   text-align: center;
   padding-left: 8px;
-  color: var(--color-Ming);
-  background-color: var(--color-Columbia-Blue);
+  color: black;
+  background-color: yellowgreen;
   border-radius: 8px;
 }
 
@@ -23,4 +23,8 @@
 
 .project-card h6 {
   margin: 10px;
+}
+
+.project-card .inactive {
+  display: none;
 }
