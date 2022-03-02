@@ -10,8 +10,8 @@ export default function HeroSection() {
       />
       <section className="hero-details">
         <h1> Hello </h1>
-        <h1> I am Salah Uddin </h1>
-        <h6> Frontend developer</h6>
+        <h1> I'm Salah Uddin </h1>
+        <h6> Frontend developer </h6>
       </section>
     </div>
   );
