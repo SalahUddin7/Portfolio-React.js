@@ -1,19 +1,16 @@
 .overlay-style {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 0px;
   left: 0;
   bottom: 0;
-  background-color: rgb(230, 105, 105);
+  background-color: rgb(20, 219, 53);
 
   z-index: 1000;
 }
 
 .modal-style {
   position: fixed;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 
   border: 2px solid red;
   border-radius: 5px;
@@ -23,11 +20,6 @@
   transform: translate(-50%, -50%);
   background-color: rgb(255, 255, 255);
   z-index: 100;
-  /* width: 90%;
-  max-width: 420px;
-  height: 300px;
-  max-height: 550px;
-  overflow: auto;  */
 }
 
 .btn-cancel {

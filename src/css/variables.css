@@ -10,7 +10,9 @@
   --space-big: 24px;
   --space-bigger: 48px;
   /* Color */
-  --color-Ming: #2b6777;
-  --color-Polished-Pine: #52ab98;
+
+  --color-primary: var (--swatch-black) #00000
+  --color-black: #000000;
+  --color-white: #ffffff;
   --color-Columbia-Blue: #c8d8e4;
 }
