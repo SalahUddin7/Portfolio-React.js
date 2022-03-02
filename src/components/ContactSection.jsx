@@ -7,14 +7,14 @@ export default function ContactSection() {
   return (
     <div className="container-section" id="contact">
       <div className="contact-container">
-        <div className="item1">
+        <div className="contact-item1">
           <h1>Contact Me</h1>
         </div>
-        <div className="item2">
+        <div className="contact-item2">
           Here is my contact information.I look forward to collaboratation.
           Please feel free to call me or email me.
         </div>
-        <div className="item3">
+        <div className="contact-item3">
           <div>
             <FaRegEnvelope />
             <a href="mailto:ziko.salahuddin@gmail.com">
