@@ -1,8 +1,10 @@
 .technology-container {
+  max-width: 800px;
   width: 100%;
   text-align: left;
   margin: 0 auto;
-  max-width: 800px;
+
+  padding: 20px;
 }
 .technology-container p {
   font-size: var(--font-size-heading);
