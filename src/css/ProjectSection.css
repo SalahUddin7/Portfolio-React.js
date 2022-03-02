@@ -53,4 +53,23 @@
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+  .project-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 800px;
+    height: auto;
+  }
+
+  .item-one {
+    flex: 0 0 100%;
+  }
+
+  .item-two {
+    flex: 0 0 34%;
+    margin-top: 20px;
+  }
+  .item-three {
+    flex: 0 0 66%;
+  }
 }
