@@ -22,18 +22,9 @@
 }
 
 .contact-container a:hover {
-  color: var(--color-Ming);
+  font-size: 28px;
+  color: darkblue;
 }
-
-/* .item1 {
-  grid-area: myArea;
-} */
-
-/* .contact-container {
-  display: grid;
-  grid-template-areas: 'myArea ';
-  gap: 30px;
-} */
 
 .contact-container > div {
   text-align: left;
@@ -41,6 +32,7 @@
 
 .contact-item2 {
   font-size: 24px;
+  padding-right: 50px;
 }
 
 .contact-item3 {
@@ -50,25 +42,10 @@
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-  /* .contact-container {
-    display: grid;
-    grid-template-areas: 'myArea myArea ';
-    gap: 30px;
-    padding: 10px;
-  } */
-
-  /* .contact-container > div {
-    text-align: center;
-
-    text-align: left;
-  } */
-
   .contact-container {
-    margin-top: 100px;
-
+    margin-top: 40px;
     display: flex;
     flex-flow: row wrap;
-
     width: 800px;
     height: auto;
   }
