@@ -23,7 +23,7 @@ export default function ContactSection() {
           </div>
           <div>
             <FaPhoneAlt />
-            <a href="mailto:zzziko@gmail.com">0046 (0)73 642 2997</a>
+            <a href="0046 (0)73 642 299">0046 (0)73 642 2997</a>
           </div>
           <div>
             <FaMapMarker />

@@ -1,4 +1,9 @@
 :root {
+  /* Color */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-light-gray: #eeeeee;
+
   /* Font Size */
   --font-size-heading: 24px;
   --font-size-paragraph: 16px;
@@ -9,10 +14,4 @@
   --space-medium: 16px;
   --space-big: 24px;
   --space-bigger: 48px;
-  /* Color */
-
-  --color-primary: var (--swatch-black) #00000
-  --color-black: #000000;
-  --color-white: #ffffff;
-  --color-Columbia-Blue: #c8d8e4;
 }

@@ -8,10 +8,12 @@ export default function TechSectionArea() {
   ));
   return (
     <div className="technology-container" id="technology">
-      <h1>Technology I use</h1>
+      <h1>Technology</h1>
 
       <div>
-        <p>Here is a list of techonology I am using and can work comfortably</p>
+        <p>
+          Here is a list of techonology I am using and can work comfortably.
+        </p>
 
         <ul>{Technologies}</ul>
       </div>

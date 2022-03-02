@@ -1,5 +1,5 @@
 .project-section {
-  background-color: #f8f2f2;
+  background-color: var(--color-light-gray);
   padding: 20px 0px;
 }
 
@@ -19,25 +19,22 @@
   grid-template-columns: auto auto auto auto auto auto;
 
   gap: 10px;
-  background-color: #2196f3;
+  background-color: var(--color-light-gray);
   padding: 10px;
 }
 
 .item-two {
   font-size: 24px;
   grid-column: 1 / 2;
-  border-style: dashed;
-  border-color: blue;
 }
 
 .item-three {
   font-size: 24px;
   grid-column: 2 / 7;
-  border-style: dashed;
-  border-color: rgb(0, 0, 240);
+
   display: flex;
   flex-wrap: wrap;
-  background-color: DodgerBlue;
+  /* background-color: rgb(255, 255, 255); */
   gap: 10px;
   gap: 10px 20px;
 }

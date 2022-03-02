@@ -1,9 +1,7 @@
 .technology-container {
   width: 100%;
-  background-color: var(--color-Columbia-Blue);
   text-align: left;
   margin: 0 auto;
-
   max-width: 800px;
 }
 .technology-container p {
@@ -18,8 +16,8 @@
   padding-inline-start: 0px;
 }
 
+/* CSS for Filename- individualTechItem.jsx */
 .tech-item-box {
-  background-color: black;
   width: 75px;
   margin: 16px 8px;
 }
@@ -29,7 +27,6 @@
 }
 .tech-item-box li {
   list-style: none;
-  color: #c4c4c4;
 }
 
 .tech-item-box li img {
