@@ -17,6 +17,18 @@
   padding-inline-start: 0px;
 }
 
+.tech-item-one {
+  margin-top: 20px;
+}
+
+.tech-item-two {
+  margin-top: 35px;
+}
+
+.tech-item-three {
+  margin-top: 15px;
+}
+
 /* CSS for Filename- individualTechItem.jsx */
 .tech-item-box {
   width: 75px;

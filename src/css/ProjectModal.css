@@ -32,15 +32,14 @@
   margin-right: 150px;
 }
 .github-btn {
-  width: 100%;
+  width: 90%;
   height: 40px;
   border: none;
-  color: var(--color-Ming);
   transition: ease-out 0.3s;
-
+  background-color: rgb(195, 95, 95);
   font-size: 16px;
   line-height: 16px;
-  background-color: var(--color-Polished-Pine);
+  margin-right: 150px;
 }
 
 .website-btn:hover {

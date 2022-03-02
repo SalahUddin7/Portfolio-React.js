@@ -12,9 +12,15 @@ footer {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-top: 20px;
 }
 
 .footer li {
   justify-items: center;
   padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin-bottom: 20px;
 }

@@ -14,7 +14,7 @@ export default function NavBar() {
           </li>
 
           <li>
-            <a href="#hero" className="main-logo">
+            <a href="#about" className="main-logo">
               <img
                 src={Logo}
                 alt="Logo made by Salah Uddin to represent this Portfolio website"
