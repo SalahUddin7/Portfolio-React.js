@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import LinkedIn from '../assets/footer-icons/linkedin-svg.svg';
-import GitHub from '../assets/footer-icons/github-svg.svg';
+import LinkedIn from "../assets/footer-icons/linkedin-svg.svg";
+import GitHub from "../assets/footer-icons/github-svg.svg";
 
 export default function Footer() {
   const yearNow = new Date().getFullYear();
+
+  // Same as the ContactSection, it can be refactored
   return (
     <footer className="footer">
       <ul>

@@ -1,8 +1,9 @@
-import React from 'react';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { FaMapMarker } from 'react-icons/fa';
-import { FaRegEnvelope } from 'react-icons/fa';
+import React from "react";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarker } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
 
+// Although this component is not 50 lines long, could be refactor to remove a lot of duplication
 export default function ContactSection() {
   return (
     <div className="container-section" id="contact">
@@ -15,12 +16,14 @@ export default function ContactSection() {
           Please feel free to call me or email me.
         </div>
         <div className="contact-item3">
+          {/* This can be a component */}
           <div>
             <FaRegEnvelope />
             <a href="mailto:ziko.salahuddin@gmail.com">
               ziko.salahuddin@gmail.com
             </a>
           </div>
+          {/* And this is another instance of the same component */}
           <div>
             <FaPhoneAlt />
             <a href="0046 (0)73 642 299">0046 (0)73 642 2997</a>

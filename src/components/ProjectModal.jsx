@@ -1,6 +1,7 @@
 export default function ProjectModal({ project }) {
   const { image, title, description, pills, github, appUrl } = project;
   const pill = pills.map((pill, index) => <li key={index}>{pill}</li>);
+  // add space here
   return (
     <div className="modal-view">
       <div className="modal-view-left">

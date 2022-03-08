@@ -1,11 +1,12 @@
-import React from 'react';
-import { DataForAllTech } from '../data/DataForAllTech';
-import IndividualTechItem from './IndividualTechItem';
+import React from "react";
+import { DataForAllTech } from "../data/DataForAllTech";
+import IndividualTechItem from "./IndividualTechItem";
 
 export default function TechSectionArea() {
   const Technologies = DataForAllTech.map((item) => (
     <IndividualTechItem key={item.id} item={item} />
   ));
+  // space here
   return (
     <div className="technology-container" id="technology">
       <h1 className="tech-item-one">Technology</h1>

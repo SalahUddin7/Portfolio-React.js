@@ -1,7 +1,7 @@
-import React from 'react';
-import { data } from '../data/DataForAllProjects';
-import Card from './Card';
-import ProjectModal from './ProjectModal';
+import React from "react";
+import { data } from "../data/DataForAllProjects";
+import Card from "./Card";
+import ProjectModal from "./ProjectModal";
 
 export default function ProjectSection({ setModal }) {
   const cards = data.map((project) => (
@@ -15,6 +15,7 @@ export default function ProjectSection({ setModal }) {
   function setProject(project) {
     setModal(<ProjectModal project={project} />);
   }
+  // space -1
   return (
     <div className="project-section" id="projects">
       <div className="project-container">

@@ -1,6 +1,7 @@
-import React from 'react';
-import Hero from '../assets/hero-section-image-by-nick-fewings-nbwmNehHvis-unsplash1.jpg';
+import React from "react"; // no need to import React since v17 -1
+import Hero from "../assets/hero-section-image-by-nick-fewings-nbwmNehHvis-unsplash1.jpg";
 
+// good
 export default function HeroSection() {
   return (
     <div className="hero-section" id="">

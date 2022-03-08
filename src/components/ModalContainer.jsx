@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import { FaWindowClose } from 'react-icons/fa';
+import React from "react";
+import ReactDom from "react-dom";
+import { FaWindowClose } from "react-icons/fa";
 
 export default function ModalContainer({ modal, setModal }) {
   if (modal === null) return null;
@@ -17,6 +17,6 @@ export default function ModalContainer({ modal, setModal }) {
         </div>
       </div>
     </>,
-    document.getElementById('modal')
+    document.getElementById("modal")
   );
 }
